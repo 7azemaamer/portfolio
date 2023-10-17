@@ -11,14 +11,12 @@
 nav{
     font-family: 'Mooli', sans-serif;
 }
-.nav-padding{
-    padding: 5px 5px !important;
-}
 nav .bg {
     background-color: var(--nav-sec-color);
     color: #fff;
     border-radius: 50px;
     border: 1px solid var(--nav-color);
+    padding: 5px 5px !important;
 }
 nav .bg .nav-color{
     color: #fff !important;
@@ -28,3 +26,16 @@ nav .bg .nav-color{
     padding-left: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    nav .bg {
+        border-radius: 0px !important;
+        width: 100% !important;
+        border: none;
+        background: rgba(9, 8, 32 , 0.7);
+        margin-top: 0px !important;
+    }
+    .rmpadd{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+}

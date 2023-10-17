@@ -1,16 +1,16 @@
-import React from "react";
-import styles from './Layout.module.css';
-import Header from "../Header/Header"
-import { Outlet } from "react-router-dom";
-import Footer from "../Footer/Footer";
+  import React from "react";
+  import styles from './Layout.module.css';
+  import Header from "../Header/Header"
+  import { Outlet } from "react-router-dom";
+  import Footer from "../Footer/Footer";
 
-export default function Layout(){
+  export default function Layout(){
 
-    return <>
-        <Header/>
-          <div className={`container ${styles.outlet}`}>
-            <Outlet></Outlet>
-          </div>
-          <Footer/>
-    </>
-}
+      return <>
+          <Header/>
+            <div className={`container mt-5 ${styles.outlet}`}>
+              <Outlet></Outlet>
+            </div>
+            <Footer/>
+      </>
+  }

@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from  "./Header.module.css";
 import { Link , NavLink} from "react-router-dom";
 
 export default function Header() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
 
   return<>
-      <nav className="navbar navbar-expand-lg ">
-        <div className={`${styles.bg} d-flex justify-content-md-between justify-content-center container ${styles['nav-padding']} mt-2`} id="navbarSupportedContent">
+      <nav className={` ${styles.rmpadd}  navbar navbar-expand-lg fixed-top`}>
+        <div className={`${styles.bg} d-flex justify-content-md-between justify-content-center container`} id="navbarSupportedContent">
           <NavLink className={`navbar-brand fw-bolder ${styles.logo}`} to="/">
            ZICOAAMER
           </NavLink>
