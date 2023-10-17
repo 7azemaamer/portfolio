@@ -5,7 +5,7 @@ import pic from "../../Assets/images/pic-ds.png";
 import iam from "../../Assets/images/picme.png";
 
 export default function Home() {
-  const texts = ['Content creator', 'Front-end Developer' , 'Software Engineer'];
+  const texts = ['Software Engineer', 'Front-end Developer' , 'Content creator',];
   
   return <>
    <div className="row mt-5 justify-content-md-start justify-content-center">
