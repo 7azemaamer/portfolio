@@ -4,7 +4,7 @@ import bookmarker from "../../Assets/images/Projects/bookmarker.png";
 import devfolio from "../../Assets/images/Projects/devfolio.png";
 import ecommerce from"../../Assets/images/Projects/ecommerce.jpg";
 import noteapp from "../../Assets/images/Projects/note app  (1).jpg";
-import { Link } from "react-router-dom";
+
 
 
 export default function Projects(){
@@ -17,7 +17,7 @@ export default function Projects(){
     return <>
         <div className="row mt-5 justify-content-md-start justify-content-center g-4">
             {data.map((project) => <div className="col-md-6 col-lg-4 col-10 d-sm-flex justify-content-center" key={project.id}>
-                <Link to={'/service-details'} target="_blank">
+                <a href={project.link} target="_blank">
                     <div className={`${styles.cover} position-relative`}>
                         <img className="w-100" src={project.image} alt={project.name} />
                         <div  className={`${styles.overlay}`}>
@@ -25,7 +25,7 @@ export default function Projects(){
                         </div>
                         <p className="text-center text-bold text-white">{project.name}</p>
                     </div>
-                </Link>
+                </a>
             </div>)}
         </div>
     </>
