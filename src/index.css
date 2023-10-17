@@ -13,8 +13,6 @@
 }
 body {
     background: linear-gradient(120deg, #101010 40%, #1B0963 65%, #1F0893 80% , #A318AA 100%)fixed !important;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: var(--darkmode-color) !important;
 }
 .text-main{
