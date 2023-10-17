@@ -31,11 +31,12 @@ nav .bg .nav-color{
         border-radius: 0px !important;
         width: 100% !important;
         border: none;
-        background: rgba(9, 8, 32 , 0.7);
+        background-color: transparent;
         margin-top: 0px !important;
     }
     .rmpadd{
-        padding-top: 0 !important;
-        margin-top: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: rgba(9, 8, 32 , 0.7);
     }
 }
