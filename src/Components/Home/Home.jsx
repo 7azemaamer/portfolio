@@ -8,7 +8,7 @@ export default function Home() {
   const texts = ['Software Engineer', 'Front-end Developer' , 'Content creator',];
   
   return <>
-   <div className="row mt-5 justify-content-md-start justify-content-center">
+   <div className="row my-5 justify-content-md-start justify-content-center">
 
       {/* Typing effect and important links */}
       <div className="col-md-6">

@@ -33,7 +33,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="row mt-5">
+      <div className="row my-5">
         <div className="col-11 col-md-8 mx-auto text-center">
           <div className="contactForm">
             <form

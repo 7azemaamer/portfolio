@@ -15,7 +15,7 @@ export default function Projects(){
         {image: devfolio , name:"Devfolio", link:"https://7azemaamer.github.io/devfolio/"  , id:"ds34"},
     ]
     return <>
-        <div className="row mt-5 justify-content-md-start justify-content-center g-4">
+        <div className="row my-5 justify-content-md-start justify-content-center g-4">
             {data.map((project) => <div className="col-md-6 col-lg-4 col-10 d-sm-flex justify-content-center" key={project.id}>
                 <a href={project.link} target="_blank">
                     <div className={`${styles.cover} position-relative`}>
