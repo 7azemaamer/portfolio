@@ -26,7 +26,7 @@ export default function Home() {
                 </a>
             </li>
             <li>
-                <a className="text-sec" href="https://www.linkedin.com/in/hazem-aamer-755906238/" target="_blank">
+                <a className="text-sec" href="https://www.linkedin.com/in/hazemaamer/" target="_blank">
                     <i className="fa-brands fa-linkedin fa-2x me-3 pointer"></i>
                 </a>
             </li>
