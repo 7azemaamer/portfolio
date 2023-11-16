@@ -7,9 +7,9 @@ export default function Services(){
 
     let data = [
         {image: editWeb , name:"E-ecommerce Websites" , id:"ds45" , price: 500 , more:true },
-        {image: editWeb , name:"Edit & fix css issues", id:"ds56" , price: 10 , more:true },
+        {image: editWeb , name:"Edit & fix css issues", id:"ds56" , price: 100 , more:true },
         {image: editWeb , name:"Website with X pages", id:"ds12" , price: 250 , more:true },
-        {image: editWeb , name:"Landing Page" , id:"ds34" , price: 10 , more:true },
+        {image: editWeb , name:"Landing Page" , id:"ds34" , price: 35 , more:true },
     ]
     function showToast(){
         Swal.fire({
