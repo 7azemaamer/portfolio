@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@500;600;900&display=swap");
+
+:root{
+    --main-color:#380858;
+    --second-color:#080908;
+    --third-color:#1F0893;
+    --btn2-color:#d617b8;
+    --main-background:#090820;
+    --darkmode-color:#F8F8F8;
+}
+.showAlertBg{
+    background-color: var(--main-color) !important;
+}
+body {
+    background: linear-gradient(120deg, #101010 40%, #1B0963 65%, #1F0893 80% , #A318AA 100%)fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--darkmode-color) !important;
+}
+.text-main{
+    color: var(--main-color) !important;
+}
+.bg-main{
+    background-color: var(--main-background);
+}
+.text-sec{
+    color: var(--btn2-color) !important;
+}
+.text-sec-light{
+    color: #f8bfef !important;
+}
+a ,Link{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.fs-0{
+    font-size: 100px !important;
+}
+.fs-text{
+    font-size: 60px !important;
+}
+.pointer{
+    cursor: pointer !important;
+}
+.btn-main{
+    background-color: var(--main-color) !important;
+    border-radius: 20px !important;
+    padding: 10px 40px !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+.btn-main:active{
+    border-color:#100892 !important ;
+    background-color: #1B0963 !important;
+}
+.nav-link.active{
+    position: relative;
+}
+.nav-link.active::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 5px;
+    bottom: -20%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50% , -50%);
+    background-color: #D617B8;
+}
+.blend-mode{
+    mix-blend-mode: lighten !important; 
+}
+
+.mute-text{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: rgba(255 , 255 , 255 , 0.4);
+}
+.mute-text::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    border-radius: 2px;
+    height: 110%;
+    left: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255 , 255 , 255 , 0.4);
+}
+.listRadius{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    background-color: #100892;
+}

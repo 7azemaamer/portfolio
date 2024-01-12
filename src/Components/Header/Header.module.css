@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Prompt:wght@300;500;900&display=swap');
+
+
+:root{
+    --nav-back:#1B083B;
+    --nav-color:#100892;
+    --nav-sec-color:#090820;
+    --nav-border:#A318AA;
+}
+nav{
+    font-family: 'Mooli', sans-serif;
+}
+.nav-padding{
+    padding: 5px 5px !important;
+}
+nav .bg {
+    background-color: var(--nav-sec-color);
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid var(--nav-color);
+}
+nav .bg .nav-color{
+    color: #fff !important;
+}
+.logo{
+    color: #fff !important;
+    padding-left: 10px;
+}
+
