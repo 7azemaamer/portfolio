@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.83229d92.css",
+    "main.js": "/portfolio/static/js/main.a9771ed7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/picme.png": "/portfolio/static/media/picme.ee3f296ae9f98bf18bd5.png",
+    "static/media/devfolio.png": "/portfolio/static/media/devfolio.eefccacdfd18f7b6fd08.png",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/ecommerce.jpg": "/portfolio/static/media/ecommerce.477869a7de21725876ca.jpg",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/note app  (1).jpg": "/portfolio/static/media/note app  (1).9023dd64864506c60ef0.jpg",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/bookmarker.png": "/portfolio/static/media/bookmarker.bd1c5832522f3d03b097.png",
+    "static/media/pic-ds.png": "/portfolio/static/media/pic-ds.74978d07d8b20c4488c3.png",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/proedits.webp": "/portfolio/static/media/proedits.dc79fe34601939637fa2.webp",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.83229d92.css.map": "/portfolio/static/css/main.83229d92.css.map",
+    "main.a9771ed7.js.map": "/portfolio/static/js/main.a9771ed7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83229d92.css",
+    "static/js/main.a9771ed7.js"
+  ]
+}
